@@ -1,0 +1,77 @@
+/* style16.css */
+/* Apply styles to the entire body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #403f3d;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the form container */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: 150px auto;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-radius: 5px;
+  box-shadow: 0 15px 225px rgba(0, 0, 0, 0.1);
+  padding-right: 2%;
+  color: #d9ae5f;
+}
+
+/* Style form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #d9ae5f;
+}
+
+/* Style input fields */
+input[type="email"],
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+  background-color: white;
+  border: 2px solid;
+  border-color: #181818;
+  color: #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto;
+}
+#submit:hover {
+  background-color: #d8b16e;
+  transition: 0.3s;
+  color: #000000;
+}
+.container {
+  margin: auto;
+}
+
+a {
+  color: #d9ae5f;
+  text-decoration: none;
+}
+
+#imgc {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 200px;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="logo.png" />
+    <link rel="stylesheet" href="pagina.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="pagina.html"><img class="img" src="logo.png" alt="" /></a>
+      <a href="carrinho.html">&nbsp;Carrinho</a>
+      <a href="paginasobre.html">&nbsp;Sobre</a>
+      <li class="dropdown">
+        <a href="" class="dropbtn">&nbsp;Categorias</a>
+        <div class="dropdown-content">
+          <a href="#">Shampoos</a>
+          <a href="#">Maquiagens</a>
+          <a href="#">Condicionadores</a>
+        </div>
+      </li>
+
+      <div class="searchcontainer">
+        <form>
+          <input type="text" placeholder="Pesquisar.." name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="topnav2">&nbsp;</div>
+
+    <div style="display: flex">
+      <div class="carrinho">
+        <div class="carrinho_produto">
+          <img
+            class="carrinho_img"
+            src="https://oceane.vtexassets.com/arquivos/ids/204275-800-800?v=638326244768030000&width=800&height=800&aspect=true"
+            alt=""
+          />
+          <div>
+            <h1>Base Océane</h1>
+            <div>
+              <p>Cor 110F</p>
+              <p>Preço à vista:</p>
+              <h2>R$31,90</h2>
+            </div>
+          </div>
+          <div class="centraliza-ver">
+            <p>Quantidade:</p>
+            <button class="button-5">-</button>
+            <input class="quantidade" type="text" value="1" />
+            <button class="button-5">+</button>
+          </div>
+        </div>
+
+        <div class="carrinho_produto">
+          <img
+            class="carrinho_img"
+            src="https://oceane.vtexassets.com/arquivos/ids/202529-800-800?v=638439753621730000&width=800&height=800&aspect=true"
+            alt=""
+          />
+          <div>
+            <h1>Flat Drop<br />Océane</h1>
+            <div>
+              <p>Preço à vista:</p>
+              <h2>R$30,00</h2>
+            </div>
+          </div>
+          <div class="centraliza-ver">
+            <p>Quantidade:</p>
+            <button class="button-5">-</button>
+            <input class="quantidade" type="text" value="1" />
+            <button class="button-5">+</button>
+          </div>
+        </div>
+
+        <div class="carrinho_produto">
+          <img
+            class="carrinho_img"
+            src="https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:best/v1/imagens/products/E53519/SIAGE_SHAMPOO_RECONSTROI_OS_FIOS_E53519_PRINCIPAL_1.jpg"
+            alt=""
+          />
+          <div>
+            <h1>Shampoo <br />Reconstrói Fios</h1>
+            <div>
+              <p>Preço à vista:</p>
+              <h2>R$41,90</h2>
+            </div>
+          </div>
+          <div class="centraliza-ver">
+            <p>Quantidade:</p>
+            <button class="button-5">-</button>
+            <input class="quantidade" type="text" value="1" />
+            <button class="button-5">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carrinho">
+        <div class="carrinho_valor_final">
+          <h1>Valor Total</h1>
+          <div>
+            <p>Calcular Frete:</p>
+            <input id="calcular_frete" type="text" value="Digite seu CEP" />
+          </div>
+          <br />
+          <p>1x Base Océane = R$31,90</p>
+          <p>1x Flat Drop Océane = R$30,00</p>
+          <p>1x Shampoo Reconstrói Fios = R$41,90</p>
+          <p>Total = R$103,8</p>
+          <div>
+            <div class="forma_pag"><img src="boleto.png" alt="" /></div>
+            <div class="forma_pag"><img src="unnamed.png" alt="" /></div>
+            <div class="forma_pag"><img src="visa.png" alt="" /></div>
+            <div class="forma_pag"><img src="visacredito.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
